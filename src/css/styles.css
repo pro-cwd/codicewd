@@ -121,4 +121,8 @@
   transform-origin: bottom left;
 }
 
+.back-gray {
+  background: rgba(16, 16, 16, 0.90);
+}
+
 

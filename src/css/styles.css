@@ -125,4 +125,20 @@
   background: rgba(16, 16, 16, 0.90);
 }
 
+/* texto desplazante */
+
+@keyframes desplazar {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.texto-desplazante {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: desplazar 40s linear infinite; /* Puedes ajustar la duración y el tiempo según tus preferencias */
+}
 
